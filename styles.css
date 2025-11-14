@@ -1,35 +1,30 @@
 body {
-    background: #a678d8;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+    background: #b06ce8;
+    font-family: Arial, sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
 }
+
 #buttons {
     display: flex;
     gap: 40px;
 }
-.btn {
-    background: #6c43a4;
-    color: #fff;
+
+.btn, .stop {
+    background: #5a2d91;
     border: none;
-    padding: 30px 60px;
-    border-radius: 10px;
-    font-size: 2rem;
+    padding: 18px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background 0.2s;
-    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
 }
-.btn:hover {
-    background: #44276a;
-}
-.stop {
-    background: #c0392b;
-}
-.stop:hover {
-    background: #831c13;
+
+.btn:hover, .stop:hover {
+    background: #6a32a8;
 }
 
 
